@@ -1,0 +1,13 @@
+=> VisualSeleniumProject.Features.APITestingDemoFeature.BCMServiceTesting
+Given I want to create a new document I make a POST request
+-> error: Assert.AreEqual failed. Expected:<0>. Actual:<201>. The id is
+And To check that the docJson name is "Test DocJson Name" I make a GET request
+-> skipped because of previous errors
+And To modify the docJson name I make a PUT request
+-> skipped because of previous errors
+And To check that the docJson name has been modified into "test123" I make a GET request
+-> skipped because of previous errors
+When I want to delete the document I make a DELETE request
+-> skipped because of previous errors
+Then To check that the document was deleted I make a PUT request
+-> skipped because of previous errors
